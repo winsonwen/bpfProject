@@ -16,7 +16,7 @@
   ip link
   ```
 
-  Download linux-source code and compile, setup bpf
+  - Download linux-source code and compile, setup bpf
   ```bash
   # make sure kernel version
   uname -r
@@ -47,7 +47,7 @@
   ```
   
   3. result 
-    We can verify output via a debug file:
+  - We can verify output via a debug file:
       cat /sys/kernel/debug/tracing/trace_pipe
     or
       tail -f /sys/kernel/debug/tracing/trace
